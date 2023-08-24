@@ -1,0 +1,37 @@
+*{
+    background: white;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    margin-top: 50px;
+    color: black;
+    
+}
+
+#btn{
+    color: black;
+    border: none;
+    height: 40px;
+    width: 100px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#Mahatma{
+    display: center;
+    height: 200px;
+    width: 200px;
+}
+.table{
+    margin-left: 20px;
+    border: 10px black;
+}
+th{
+    text-align: bold;
+    border: 10px;
+
+}
+td{
+    
+}

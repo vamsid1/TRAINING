@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Form</title>
+  
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-...."
+      crossorigin="anonymous"
+    />
+    <!--csspage-->
+    <link rel="stylesheet" href="progressForm.css" />
+    <script src="axios.min.js"></script>
+</head>
+<body>
+    <form id="my-form">
+        <div id="input-container">
+            <div class="input-container">
+                <input type="text" name="label" required>
+                <input type="text" name="label_value" required>
+            </div>
+        </div>
+        <div class="add_buttton">  
+        <button  class="btn btn-secondary type="button" id="add-button">Add More</button></div>
+       
+        <div class="submit_buttton"> 
+            <button  class="btn btn-secondary type="submit" id="add-button" onclick="sendData(e)">Submit</button></div>
+        </div>
+    </form>
+    <script src="Progress_form.js"></script>
+</body>
+</html>
