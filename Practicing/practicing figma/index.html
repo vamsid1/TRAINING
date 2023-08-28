@@ -1,91 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generate Code</title>
-</head>
-<body>
-    <style>
-         .flex {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .Frame1 {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    width: 30%;
-    border: none;
-  }
-  
-  .Frame1 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  .Frame1 p {
-    margin: 5px 0;
-    font-size: 16px;
-  }
-  #price {
-    margin-left: 130px;
-    float: right;
-  }
-  #Acres {
-    margin-left: 10px;
-  
-    text-align: left;
-  }
-  #Location {
-    color: #333333;
-    margin-right: 160px;
-  }
-    </style>
-    <button id="generateButton">Generate Code</button>
-    <div id="generatedCodeContainer"></div>
-
-    <script> 
-    
-
-
-    document.addEventListener("DOMContentLoaded", function() {
-    const generateButton = document.getElementById("generateButton");
-    const generatedCodeContainer = document.getElementById("generatedCodeContainer");
-
-    generateButton.addEventListener("click", function() {
-        const generatedCode = `
-<div class="flex">
-    <div class="Frame1">
-        <img src="../Figma design/img/7.svg" alt="1.svg" id="A">
-        <p id="Acres">50 Acres<span id="price">₹ 2.5 Cr p/a</span> 
-        </p>
-        <p1 id="Location">Area,Location,Zaheerabad</p1><br>
-        <div class="add ">
-            <div class="slidebar">
-                <p3>More details</p3>
-                <img src="../Figma design/img/arrow-right.svg" alt="arrow-right" id="arrow-right">
-            </div>
-            <div class="call d-flex">
-                <img src="../Figma design/img/incomming call.svg" alt="call-incoming" id="call-incoming">
-            </div>
-        </div>
-        <br>
-    </div>
-</div>`;
-        const newDiv = document.createElement('div');
-        newDiv.innerHTML = generatedCode;
-        generatedCodeContainer.appendChild(newDiv);
-    });
-});
-
-</script>
-    
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -95,10 +7,10 @@
 </head>
 <body>
     <style>
-        .flex {
-            display: inline; /* Display images in a flex container */
-            align-items: center; /* Align content vertically */
-            margin: 10px; /* Add some margin between sets */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Display 3 items in a row */
+            gap: 20px; /* Add some gap between items */
         }
 
         .Frame1 {
@@ -109,12 +21,10 @@
             max-width: 100%;
             height: auto;
             border-radius: 5px;
-            flex: 1; /* Expand image to fill available space */
-            margin-right: 10px; /* Add spacing between images */
         }
     </style>
     <button id="generateButton">Generate Code</button>
-    <div id="generatedCodeContainer"></div>
+    <div id="generatedCodeContainer" class="grid-container"></div>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -124,23 +34,21 @@
             generateButton.addEventListener("click", function() {
                 for (let i = 0; i < 3; i++) {  // Generate 3 sets of the code
                     const generatedCode = `
-<div class="flex">
-    <div class="Frame1">
-        <img src="../Figma design/img/7.svg" alt="1.svg" id="A">
-        <p id="Acres">50 Acres<span id="price">₹ 2.5 Cr p/a</span> 
-        </p>
-        <p1 id="Location">Area,Location,Zaheerabad</p1><br>
-        <div class="add ">
-            <div class="slidebar">
-                <p3>More details</p3>
-                <img src="../Figma design/img/arrow-right.svg" alt="arrow-right" id="arrow-right">
-            </div>
-            <div class="call d-flex">
-                <img src="../Figma design/img/incoming call.svg" alt="call-incoming" id="call-incoming">
-            </div>
+<div class="Frame1">
+    <img src="../Figma design/img/7.svg" alt="1.svg" id="A">
+    <p id="Acres">50 Acres<span id="price">₹ 2.5 Cr p/a</span> 
+    </p>
+    <p1 id="Location">Area,Location,Zaheerabad</p1><br>
+    <div class="add ">
+        <div class="slidebar">
+            <p3>More details</p3>
+            <img src="../Figma design/img/arrow-right.svg" alt="arrow-right" id="arrow-right">
         </div>
-        <br>
+        <div class="call d-flex">
+            <img src="../Figma design/img/incoming call.svg" alt="call-incoming" id="call-incoming">
+        </div>
     </div>
+    <br>
 </div>`;
                     const newDiv = document.createElement('div');
                     newDiv.innerHTML = generatedCode;
@@ -151,4 +59,3 @@
     </script>
 </body>
 </html>
-
