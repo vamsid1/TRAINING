@@ -1,3 +1,6 @@
+body{
+  /* overflow-x: hidden; */
+}
 .header {
     background-color: #ffffff;
     padding: 20px;
@@ -30,18 +33,20 @@
   font-size: 14px;
 }
 
-.A {
+.item1 {
   margin: 0;
   font-size: 14px;
   padding: 0 10px;
   border-right: 1px solid #000;
-  border-left:1px solid #000; 
+  border-left:1px solid #000;
+  font-family: 'Montserrat', sans-serif; 
 }
-.A1{
+.item2{
   margin: 0;
   font-size: 14px;
   padding: 0 10px; 
-  border-right: 1px solid #000; 
+  border-right: 1px solid #000;
+  font-family: 'Montserrat', sans-serif; 
 }
   
   
@@ -102,6 +107,8 @@
   
   #cont3 {
     font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
   }
   .container {
     display: flex;
@@ -115,7 +122,8 @@
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px;
+    line-height: 51.2px;
 
    
 }
@@ -147,9 +155,10 @@
     margin-left: auto; 
     margin-right: auto; 
     border: none;
-    margin-top: 40px;
-    background-color: #e0e0e0; 
+    margin-top: 50px;
+    background-color: #f8f8fc; 
     border-radius: 5px;
+   
 }
 #Searchlogo{
     width: 27px;
@@ -164,12 +173,11 @@
     width: 350px;
     border: none;
     border-radius: 5px;
-    background-color: #e0e0e0; 
+    background-color: #f8f8fc; 
+    margin-top: 6px;
 
 
 }
-
-
 
 #land {
     color: white;
@@ -194,11 +202,12 @@
 }
 .letsStart{
     border: 1px solid black;
-    height: 120px;
+    height: 150px;
     width: 100%;
     border: none;
     font-weight: bold;
-    background-color: #e0e0e0; 
+    background-color: #f8f8fc; 
+    
     
     font-family: 'Montserrat', sans-serif;
 
@@ -209,23 +218,26 @@
     margin-top: 40px;
     margin-left: 250px;
     font-size: 20px;
+    line-height: 38.4px;
   
 }
 #start-btn{
      color: white;
     background: linear-gradient(to right, #77BE43 0%, #4E8D40 100%);
     border: none;
-   margin-left:180px;
-   margin-top: 40px; 
-    font-family: Poppins;
-    font-size: 14px;
+    padding: 5px;
+    
+   margin-left:160px;
+   margin-top: 45px; 
+   font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
-    width: 89px;
+    width: 100px;
     height: 30px;
-    border-radius: 5px; */
+    border-radius: 5px; 
 
 }
 .bestproperties{
@@ -236,6 +248,7 @@
     margin-left: 0px;
     text-align: center;
     border: none;
+    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -272,16 +285,17 @@
   
   display: flex;
   align-items: center;
-  margin-right: -30px;
+  margin-right: -5px;
   padding: 10px 20px;
-  width: 212.8px;
+  width: 231.8px;
   height: 84px;
   border-radius: 8px;
   margin-left: 10px;
   border: none;
-  background-color: #e0e0e0;
+  background-color: #f8f8fc;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-left: -20px;
 }
  
   
@@ -315,18 +329,19 @@
 }
 #list{
     text-align: center;
-    justify-content: center;
     font-weight: bold;
     margin-top: 50px;
     margin-left: 320px;
+    line-height: 38.4px;
+    font-weight: bolder;
 }
 .letsStart1{
     border: 1px solid black;
-    height: 180px;
+    height: 230px;
     width: 100%;
    margin-top: 100px;
     border: none;
-    background-color: #e0e0e0; 
+    background-color: #f8f8fc; 
     font-family: 'Montserrat', sans-serif;
 }
 #Happening{
@@ -337,24 +352,26 @@
     font-size: 25px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 40px;
+    margin-top: 100px;
  }
 
  #btn-below1 {
     display: flex; 
-    margin-right: -40px;
+    margin-right: -16px;
     padding: 10px 20px;
     align-items: center; 
     height: 70px;
-    width: 220px;
+    width: 232px;
     text-align: center;
     border-radius: 8px;
     margin-left: 20px;
+  
     
     border: none; 
-    background-color: #e0e0e0; 
+    background-color: #f8f8fc; 
     cursor: pointer; 
     transition: background-color 0.3s; 
+    margin-left: -10px;
 }
 .submitpage{
     background-color: #F8F8FC;
@@ -377,16 +394,15 @@
     margin-left: 280px;
   
 }
-
-/* //rough// */
  
  .submitscreen {
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 70vh;
+    height: 80vh;
+    margin-top: 50px;
     
-    background-color: #e0e0e0; 
+    background-color: #f8f8fc; 
 }
 
 .borderpage {
@@ -401,7 +417,7 @@ input[type="text"] {
     width: 100%; 
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #f8f8fc;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -444,14 +460,14 @@ input[type="text"] {
 
 }
 .borderpage{
-    margin-right: 230px;
+  
      height: 350px;
      width:430px;
      border-radius: 8px;
      float: right;
-     margin-right: 100px;
+     margin-right: 200px;
      position: absolute;
-     margin-top: 20px;
+     margin-top: 0px;
      margin-left: 750px;
 }
 .services{
@@ -480,6 +496,7 @@ input[type="text"] {
     height: 170px;
     border-radius: 8px;
     border: none;
+    margin-top: 20px;
 }
 
 .a img {
@@ -495,6 +512,7 @@ input[type="text"] {
     width: 100%;
     background-color: #f8f8fc;
     border: none;
+    margin-top: 100px;
   }
   #testimon {
     color: #77be43;
@@ -504,6 +522,17 @@ input[type="text"] {
     font-size: 14px;
    
   
+  }
+  #icon1{
+    padding: 20px;
+    border: 1px solid red;
+    margin-left: -40px;
+    border-radius: 5px;
+    width: 260px;
+    height: 248px;
+    margin-left: 50px;
+    border: none;
+    margin-top: 40px;
   }
   #testimon1 {
     font-size: 32px;
@@ -530,7 +559,7 @@ input[type="text"] {
   .next {
     cursor: pointer;
     position: absolute;
-    top: 80%;
+    top: 160%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -615,11 +644,11 @@ input[type="text"] {
   .bestland {
     border: 1px solid black;
     
-    height: 450px;
+    height: 500px;
     width: 100%;
     margin-left: 10px;
     border: none;
-    margin-top: 260px;
+    margin-top: 290px;
     font-family: Montserrat;
   }
   .bestProperty{
@@ -629,10 +658,11 @@ input[type="text"] {
     width: 100%;
     font-family: Montserrat, sans-serif;
     border: 1px solid black;
-    height: 170px;
+    height: 200px;
     padding: 25px;
-    background-color: #e0e0e0; 
+    background-color: #f8f8fc; 
     border: none;
+  
   }
     
   #searchNow{
@@ -698,18 +728,22 @@ input[type="text"] {
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 10px;
     cursor: pointer;
     border-radius: 5px;
     width: 140px;
     text-align: center;
     height: 35px;
     margin-top: 20px;
+    padding: 10px;
   }
   
   #hr {
     margin: 20px 0;
-    border: 1px solid #ccc;
+    width: 1170px;
+    margin-left: 40px;
+    border: 0.5px solid #888484;
+    
   }
   
   .cont {
@@ -718,7 +752,7 @@ input[type="text"] {
     color: white;
     margin-left: -400px;
     margin-top: 20px;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
   
   }
   #icons321{
@@ -741,12 +775,12 @@ input[type="text"] {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #66a93e;
+    background: linear-gradient(to right, #4E8D40 0%, #77BE43 100%);
     color: white;
     border: none;
     border-radius: 5px;
     width: 250px;
-    height: 40px;
+    height: 50px;
   }
   
   #whatsapp:hover {
@@ -772,12 +806,13 @@ input[type="text"] {
     color: white;
     display: flex;
     margin-left: 40px;
+    margin-bottom: 40px;
   }
   .lastcontent > p1 {
     font-size: 14px;
     color: white;
     display: flex;
-    margin-left: 840px;
+    margin-left: 820px;
     padding-top: 20px;
   } 
   .cont {
@@ -798,32 +833,46 @@ input[type="text"] {
     margin: 10px 0;
     display: flex;
     align-items: center;
+    font-size: 14px;
+    line-height: 21px;
+
     
 }
 
 .contactus img {
     margin-right: 10px;
     width: 20px;
-    height: 20px;
+    height: 32px;
 }
-#w789{
+#whatsapp-icon1{
   height: 20px;
   width: 20px;
   text-align: center;
- margin-top: 20px;
- padding-top: 10px;
+  margin-left: -90px;
+ position: absolute;
+ margin-top: -55px;
+ font-weight: normal;
+
+
  
 
 }
-#w604{
+#whatsapp-text{
   font-size: 13px;
+  margin-top: -83px;
+ padding-top: 20px;
+ margin-left: -60px; 
+ position: absolute;
+
+
+ 
 }
 #icon-whatsapp{
    height: 15px;
     width: 15px;
-    margin-left: 5px
-  
+    margin-left: 5px;
 }
+
 #text-content{
   font-family: Montserrat, sans-serif;
   font-size: 32px;
