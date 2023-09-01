@@ -1,6 +1,8 @@
-body{
-  /* overflow-x: hidden; */
-}
+/* body{
+    overflow-x: hidden; 
+   margin: 0; 
+   padding: 0;
+} */
 .header {
     background-color: #ffffff;
     padding: 20px;
@@ -245,7 +247,7 @@ body{
     height: 550px;
     background-color: white;
     padding: 10px;
-    margin-left: 0px;
+    margin-left: 8px;
     text-align: center;
     border: none;
     margin-top: 50px;
@@ -318,6 +320,7 @@ body{
   flex-direction: column;
   align-items: flex-start; 
   font-size: 14px;
+  line-height: 22.4px;
 
 
 }
@@ -491,12 +494,13 @@ input[type="text"] {
     border: 1px solid #ccc;
     text-align: center;
     padding: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
     width: 170px;
     height: 170px;
     border-radius: 8px;
     border: none;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .a img {
@@ -649,11 +653,12 @@ input[type="text"] {
     margin-left: 10px;
     border: none;
     margin-top: 290px;
+    padding: 40px 40px 40px 80px;
     font-family: Montserrat;
   }
   .bestProperty{
     text-align: center;
-    margin-top: 500px;
+    margin-top: 700px;
     height: 100px;
     width: 100%;
     font-family: Montserrat, sans-serif;
@@ -685,6 +690,8 @@ input[type="text"] {
     margin-right: 10px;
     margin-left: -10px;
     padding: 10px;
+    line-height: 22.4px;
+    font-size: 14px;
     font-family: Montserrat, sans-serif;
   }
   

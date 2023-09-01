@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p1 id="Location" >Area,Location,Zaheerabad</p1><br>
                 <div class="add ">
                 <div class="slidebar">
-                  <p3 style="color: green;">More details</p3>
+                <p3 style="color: green; font-size: 14px;">More details</p3>
                  
                     <img src="../Figma design/img/arrow-right.svg" alt="arrow-right" id="arrow-right">
                   </div>
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p1 id="Location" >Area,Location,Zaheerabad</p1>
                 <div class="add ">
                     <div class="slidebar">
-                      <p3 style="color: green;">More details</p3>
+                    <p3 style="color: green; font-size: 14px;">More details</p3>
                      
                         <img src="../Figma design/img/arrow-right.svg" alt="arrow-right" id="arrow-right">
                       </div>
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p1 id="Location">Area,Location,Zaheerabad</p1>
                 <div class="add ">
                     <div class="slidebar" >
-                      <p3 style="color: green;">More details</p3>
+                    <p3 style="color: green; font-size: 14px;">More details</p3>
                      
                         <img src="../Figma design/img/arrow-right.svg" alt="arrow-right" id="arrow-right">
                       </div>
