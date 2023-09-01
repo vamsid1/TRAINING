@@ -465,7 +465,7 @@ input[type="text"] {
 .borderpage{
   
      height: 350px;
-     width:430px;
+     width:445px;
      border-radius: 8px;
      float: right;
      margin-right: 200px;
@@ -864,6 +864,11 @@ input[type="text"] {
  
 
 }
+#whatsapp-Content{
+  margin-left: 30px;
+}
+
+
 #whatsapp-text{
   font-size: 13px;
   margin-top: -83px;
@@ -875,9 +880,13 @@ input[type="text"] {
  
 }
 #icon-whatsapp{
-   height: 15px;
-    width: 15px;
-    margin-left: 5px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  margin-left: 10px;
+ position: absolute;
+ margin-top: 0px;
+ font-weight: normal;
 }
 
 #text-content{

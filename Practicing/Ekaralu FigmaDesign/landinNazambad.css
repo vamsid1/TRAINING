@@ -167,9 +167,13 @@ font-family: 'Montserrat', sans-serif;
     font-family: Montserrat, sans-serif;
   }
   
-  .search {
+  /* .search {
     display: flex;
     align-items: center;
+   
+  
+ 
+
   }
   #text {
    
@@ -211,11 +215,81 @@ font-family: 'Montserrat', sans-serif;
     margin-left: 430px;
     text-align: center;
     font-family: Montserrat, sans-serif;
-  }
-  .box {
-    display: inline-flex;
+  } */
+  .agriculture {
+    text-align: center;
+}
+
+.agriculture p {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search {
+    display: flex;
     align-items: center;
-    height: 30px;
+    position: relative;
+}
+
+.button {
+  border: 1px solid #ccc;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: -490px;
+}
+
+
+.search input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 30px; 
+  width: 200px;
+  border: none;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+
+.search-button {
+  border: none;
+  background-color: #77be43;
+  color: #fff;
+  height: 30px; 
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-family: Montserrat, sans-serif;
+  float: right; 
+}
+
+.sort .box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#text {
+    margin-left: 0px; /* Adjust the margin as needed */
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+   
+    
+}
+
+  .box {
+   
+    height: 40px;
     width: 80px;
     padding-left: 5px;
     margin-left: 10px;
@@ -223,7 +297,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: #fbfbff;
     color: #333333;
     border: 1px solid  rgba(51, 51, 51, 0.2);
-    margin-top: -7px;
+    margin-top: 20px;
     font-weight: normal;
     
     border-radius: 5px;
@@ -242,6 +316,7 @@ font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-family: Montserrat, sans-serif;
   }
+ 
   
   .sort {
     display: flex;
