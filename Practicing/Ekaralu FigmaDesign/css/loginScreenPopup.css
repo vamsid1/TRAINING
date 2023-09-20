@@ -1,0 +1,220 @@
+.header {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  
+
+  
+  #logo {
+    max-width: 80px;
+    height: auto;
+    margin-right: 20px;
+  }
+ 
+  #login-signup-container {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.a{
+  font-size: 14px;
+}
+
+.item1 {
+  margin: 0;
+  font-size: 14px;
+  padding: 0 10px;
+  border-right: 1px solid #000;
+  border-left:1px solid #000;
+  font-family: 'Montserrat', sans-serif; 
+}
+.item2{
+  margin: 0;
+  font-size: 14px;
+  padding: 0 10px; 
+  border-right: 1px solid #000;
+  font-family: 'Montserrat', sans-serif; 
+}
+  
+  
+#sub-content {
+    width: 200px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: -414px;
+  }
+  
+  .cont0 {
+    display: flex;
+    align-items: center;
+  }
+  
+  #cont1 {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  .cont2p {
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 270px;
+    height: 30px;
+    background-color: #77be43;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px; 
+    margin: auto;
+    border: none;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+ 
+  #item2 {
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .img2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  #item {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+    
+  }
+  
+  #cont3 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .popup {
+    width: auto;
+    height: 330px;
+   
+    top: 50%; 
+    left: 50%; 
+    
+    padding: 48px;
+    border-radius: 8px;
+    border: 0.5px solid #000;
+    background-color: #fff; /* Background color if needed */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+   
+}
+h2 {
+    width: 371px;
+    height: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: calc(50% - 276.5px); /* Center horizontally */
+}
+
+#verification {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: center;
+    width: 424px;
+    height: 22px;
+    margin-left: calc(50% - 265.5px); /* Center horizontally */
+}
+
+
+.borderForMobile {
+    border: 1px solid rgba(19, 19, 19, 1); 
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  rgba(255, 255, 255, 1);
+    max-width: 481px;
+    margin-bottom: 20px;
+    background-color: rgba(248, 248, 252, 1);
+}
+
+.mobile_number {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #333; 
+    margin: 0; 
+ 
+   
+}
+button{
+    width: 504px;
+    height: 56px;
+    padding: 10px 16px; 
+    border-radius: 5px;
+    gap: 16px;
+    background-color:  rgba(119, 190, 67, 1);
+    border: none;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+span{
+    color: rgba(119, 190, 67, 1);
+    font-family: 'Montserrat', sans-serif; 
+}
+
+  .custom-checkbox {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+  
+    border: 1.5px solid rgba(119, 190, 67, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    vertical-align: middle; 
+    position: relative; 
+    flex-shrink: 0; 
+}
+
+.custom-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    display: inline-flex; 
+    align-items: center;
+}
+
+
+.custom-checkbox:checked {
+    background-color: rgba(119, 190, 67, 1);
+}
+
+
+

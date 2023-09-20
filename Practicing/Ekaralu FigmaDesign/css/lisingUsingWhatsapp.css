@@ -1,0 +1,671 @@
+.header {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  
+
+  
+  #logo {
+    max-width: 80px;
+    height: auto;
+    margin-right: 20px;
+  }
+ 
+  #login-signup-container {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.a{
+  font-size: 14px;
+}
+
+.item1 {
+  margin: 0;
+  font-size: 14px;
+  padding: 0 10px;
+  border-right: 1px solid #000;
+  border-left:1px solid #000;
+  font-family: 'Montserrat', sans-serif; 
+}
+.item2{
+  margin: 0;
+  font-size: 14px;
+  padding: 0 10px; 
+  border-right: 1px solid #000;
+  font-family: 'Montserrat', sans-serif; 
+}
+  
+  
+#sub-content {
+    width: 200px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: -414px;
+  }
+  
+  .cont0 {
+    display: flex;
+    align-items: center;
+  }
+  
+  #cont1 {
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+  }
+  
+  .cont2p {
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 270px;
+    height: 30px;
+    background-color: #77be43;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px; 
+    margin: auto;
+    border: none;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+ 
+  #item2 {
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .img2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  #item {
+    max-width: 20px;
+    height: auto;
+    margin-right: 10px;
+    
+  }
+  
+  #cont3 {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .com{
+    color: rgba(51, 51, 51, 0.5);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .sidenav {
+    height: 400px;
+    width: 250px;
+    position: absolute;
+   
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-top: 130px;
+    font-family: 'Montserrat', sans-serif;
+  
+
+  }
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  h2{
+    margin-left: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  h2 >span{
+    color:#77be43;
+  }
+  #main-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 70px;
+
+  }
+  #main-content1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 280px;
+
+  }
+  #main-content2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 280px;
+
+  }
+  #main-content3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 280px;
+
+  }
+  #main-content4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 280px;
+
+  }
+  #main-content5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 280px;
+
+  }
+  #main-content6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 280px;
+
+  }
+  #main-content7{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: justified;
+    margin-left: 280px;
+
+  }
+  #qtn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px; 
+    font-weight: 700; 
+    line-height: 38px; 
+    letter-spacing: 0em; 
+    text-align: left; 
+    margin-left: 280px;
+  }
+   
+  .ekaralu {
+    display: flex;
+    align-items: center;
+    background-color: #131313;
+    padding: 20px;
+  }
+  
+  #ekaralu {
+    width: 100px;
+    height: auto;
+  }
+  
+  #ready {
+    margin: 0 20px;
+    font-size: 18px;
+    color: white;
+    width: 250px;
+    font-family: Montserrat, sans-serif;
+    margin-left: 660px;
+  }
+  
+  #GetStart {
+    background-color: #ff6666;
+    padding: 5px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 170px;
+    text-align: center;
+    height: 35px;
+  }
+  
+  #hr {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+  }
+  
+  .cont {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: -400px;
+    margin-top: 20px;
+  }
+  
+  .contactus {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .contactus p {
+    margin: 5px 0;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  #whatsapp {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #66a93e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    
+  }
+  
+  #whatsapp:hover {
+    background-color: #66a93e;
+  }
+  
+  #icons321 {
+    margin-right: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #icon3 {
+    margin-left: 10px;
+    height: 20px;
+    width: 40px;
+  }
+  .lastcontent {
+    color: white;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+  }
+  .lastcontent > p {
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    font-family: Montserrat, sans-serif;
+  }
+  .lastcontent > p1 {
+    color: white;
+    display: flex;
+    margin-left: 800px;
+    padding-top: 20px;
+  }
+  /* //fidsovbogos */
+  .grid-container {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);  */
+    grid-template-columns: 1fr;
+    gap: 20px; 
+  }
+  
+  .Frame1 {
+    /* Your existing Frame1 styles */
+  }
+  
+  .Frame1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  #Best {
+  font-size: 26px;
+  margin-left: 10px;
+  font-family: Montserrat, sans-serif;
+  }
+  .bestland {
+  border: 1px solid black;
+  
+  height: 500px;
+  width: 100%;
+  margin-left: 10px;
+  border: none;
+  margin-top: 0px;
+  padding: 40px 40px 40px 80px;
+  font-family: Montserrat;
+  }
+  
+  
+  
+  
+  
+  
+  .names {
+  margin-right: 10px;
+  margin-left: -10px;
+  padding: 10px;
+  line-height: 22.4px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+  }
+  
+  .nms {
+  display: flex;
+  margin-left: 10px;
+  font-family: Montserrat, sans-serif;
+  
+  }
+  
+  .ekaralu {
+  display: flex;
+  align-items: center;
+  background-color: #131313;
+  padding: 20px;
+  
+  
+  }
+  
+  #ekaralu {
+  width: 140px;
+  height: auto;
+  margin-left: 20px;
+  }
+  
+  #ready {
+  margin: 0 20px;
+  font-size: 14px;
+  color: white;
+  width: 250px;
+  margin-left: 750px;
+  font-family: Montserrat, sans-serif;
+  margin-top: 20px;
+  
+  }
+  
+  
+  #GetStart {
+  background-color: #ff6666;
+  padding: 5px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 140px;
+  text-align: center;
+  height: 35px;
+  margin-top: 20px;
+  padding: 10px;
+  }
+  
+  #hr {
+  margin: 20px 0;
+  width: 1170px;
+  margin-left: 40px;
+  border: 0.5px solid #888484;
+  
+  }
+  
+  .cont {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-left: -400px;
+  margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  
+  }
+  #icons321{
+  margin-right: 20px;
+  
+  }
+  
+  .contactus {
+  padding: 10px;
+  margin-top: 20px;
+  }
+  
+  .contactus p {
+  margin: 5px 0;
+  
+  }
+  
+  #whatsapp {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to right, #4E8D40 0%, #77BE43 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  }
+  
+  #whatsapp:hover {
+  background-color: #66a93e;
+  }
+  
+  #icons321 {
+  margin-right: 5px;
+  }
+  
+  .clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  
+  .lastcontent {
+  color: white;
+  display: flex;
+  }
+  .lastcontent > p {
+  font-size: 14px;
+  color: white;
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  }
+  .lastcontent > p1 {
+  font-size: 14px;
+  color: white;
+  display: flex;
+  margin-left: 820px;
+  padding-top: 20px;
+  } 
+  .cont {
+  display: flex;
+  color: white;
+  margin-left: 50px;
+  }
+  
+  .contactus {
+  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-left: -30px;
+  }
+  
+  .contactus p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 21px;
+  
+  
+  }
+  
+  .contactus img {
+  margin-right: 10px;
+  width: 20px;
+  height: 32px;
+  }
+  #whatsapp-icon1{
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  margin-left: -90px;
+  position: absolute;
+  margin-top: -55px;
+  font-weight: normal;
+  
+  
+  
+  
+  }
+  #whatsapp-text{
+  font-size: 13px;
+  margin-top: -83px;
+  padding-top: 20px;
+  margin-left: -60px; 
+  position: absolute;
+  
+  
+  
+  }
+  #icon-whatsapp{
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  }
+  
+  #text-content{
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 51px;
+  letter-spacing: 0;
+  text-align: left;
+  
+  margin-top: -30px;
+  
+  
+  }
+  
+  #text-content2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 20px; 
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-right: 300px;
+  color: #77BE43;
+  }
+  
+  #text-content3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 10px; 
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-left: -1062PX;
+  margin-top: 130px;
+  }
+  
+  #quote {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-right: 440px;
+  margin-left: -400px;
+  margin-top: 200px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
+  

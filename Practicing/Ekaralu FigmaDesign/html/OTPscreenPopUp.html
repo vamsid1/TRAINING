@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/OTPscreenPopUp.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="content">
+        <img src="../images/Ekaralu LOGO.svg " alt="Ekaralu-logo" id="logo" />
+        <h1 id="sub-content">Why you should list with us?</h1>
+        <div class="cont0" style="display: flex">
+          <div id="cont1" class="d-flex">
+            <p class="cont2p">List Your Agriculture / Farm Land</p>
+          </div>
+          <div id="login-signup-container">
+            <label class="item1" style="margin-right: 10px">Login</label>
+            <label class="item2" style="margin-left: -10px">Signup</label>
+          </div>
+          <div class="img2">
+            <img src="../images/textalign-justifycenter.svg" id="item" />
+            <label id="cont3">MENU</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup">
+      <img
+        src="../images/Ekaralu LOGO.svg"
+        alt="Ekaralu-logo"
+        class="ekaralu_Logo"
+      />
+      <h3>OTP Verification</h3>
+      <p>
+        Please enter One Time Password. Send to your Mobile Number <br />
+        +91 00000 00000
+      </p>
+      <div class="otp-container">
+        <form class="otp-form">
+          <input type="text" id="digit1" maxlength="1" />
+          <input type="text" id="digit2" maxlength="1" />
+          <input type="text" id="digit3" maxlength="1" />
+          <input type="text" id="digit4" maxlength="1" />
+          <input type="text" id="digit5" maxlength="1" />
+          <input type="text" id="digit6" maxlength="1" />
+          <div id="countdown" style="color: rgba(51, 51, 51, 0.4)">
+            Time left: 15 sec
+          </div>
+          <p id="resend">Resend It?</p>
+        </form>
+      </div>
+      <button>LOGIN</button><br />
+    </div>
+
+    <script>
+      // Countdown timer
+      let countdownTime = 15; // 15 seconds
+      let countdownInterval;
+
+      function updateCountdown() {
+        const countdownElement = document.getElementById("countdown");
+        countdownElement.textContent = `Time left: ${countdownTime} seconds`;
+
+        if (countdownTime <= 0) {
+          clearInterval(countdownInterval);
+          document.getElementById("verify-btn").disabled = true;
+          countdownElement.textContent = "Time's up!";
+        }
+      }
+
+      countdownInterval = setInterval(function () {
+        countdownTime--;
+        updateCountdown();
+      }, 1000);
+
+      // Enable the "Verify OTP" button after all fields are filled
+      const otpInputs = document.querySelectorAll("input[type='text']");
+      otpInputs.forEach(function (input) {
+        input.addEventListener("input", function () {
+          const filledInputs = Array.from(otpInputs).filter(
+            (input) => input.value.trim() !== ""
+          );
+          document.getElementById("verify-btn").disabled =
+            filledInputs.length !== 6;
+        });
+      });
+    </script>
+  </body>
+</html>

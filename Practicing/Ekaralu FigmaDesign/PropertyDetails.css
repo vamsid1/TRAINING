@@ -31,16 +31,16 @@
   border-right: 1px solid #000;
   border-left:1px solid #000; 
 }
-.A1{
-  margin: 0;
-  font-size: 14px;
-  padding: 0 10px; 
-  border-right: 1px solid #000; 
-}
+
   
-  p {
-    font-size: 18px;
-    margin-left: 260px;
+  h1 {
+    font-size: 14px;
+     margin: auto;
+     margin-right: 10px;
+  
+    font-weight: normal;
+   
+  
   }
   
   .content3 {
@@ -55,19 +55,26 @@
   }
   
   .cont2p {
-    font-size: 16px;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 270px;
-    height: 30px;
-    background-color: #77be43;
-    color: #ffffff;
-    text-align: center;
-    line-height: 30px; 
-    margin: auto;
+    
+    width: 244px; /* Fixed width */
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  background-color: #77be43;
+  color: #ffffff;
+  border: 1px solid black;
     border: none;
-    margin-left: 10px;
-}
+    margin-right: -20px;
+    
+    }
+    
  
   #item2 {
     font-size: 14px;
@@ -83,12 +90,22 @@
   #item {
     max-width: 20px;
     height: auto;
-    margin-right: 5px;
+    margin-right: 0px;
     
   }
   
   #m2 {
-    font-size: 14px;
+  
+    width: 41px;
+  height: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 10px;
+    
   }
   .container2 {
     display: flex;
@@ -107,7 +124,7 @@
   }
   
   .com {
-    margin: 20px;
+    
     font-size: 16px;
     text-decoration: none;
     color: #333333;
@@ -135,8 +152,13 @@
 
 .video-container video {
     max-width: 100%;
-    height: auto;
+    height: 340px;
+    margin-top: -30px;
     display: block;
+}
+#horizantalline{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .titleOfLand h1 {
@@ -215,6 +237,7 @@
     height: 48px;
     padding: 10px 20px;
     border-radius: 5px;
+    margin-left: 20px;
     gap: 16px; 
     color: #ffffff;
     background-color: #131313;
@@ -270,7 +293,7 @@
             border: 1px solid black;
             height: 5px;
             width: 100%;
-            margin-left: 10px;
+            margin-left: 50px;
             border: none;
             margin-top: 20px;
             
@@ -294,22 +317,28 @@
             align-items: center;
             background-color: #131313;
             padding: 20px;
-            font-family: 'Montserrat', sans-serif;
+          
+        
           }
           
           #ekaralu {
-            width: 100px;
+            width: 50px;
             height: auto;
+            margin-left: 20px;
           }
           
           #ready {
-            margin: 0 20px;
-            font-size: 18px;
+            margin: auto;
+            padding: 20px;
+            font-size: 14px;
             color: white;
             width: 250px;
-            margin-left: 660px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: Montserrat, sans-serif;
+            margin-top: 20px;
+            margin-right: 10px; 
+        
           }
+          
           
           #GetStart {
             background-color: #ff6666;
@@ -317,18 +346,22 @@
             color: white;
             border: none;
             padding: 10px 20px;
-            font-size: 16px;
+            font-size: 10px;
             cursor: pointer;
             border-radius: 5px;
-            width: 170px;
+            width: 140px;
             text-align: center;
             height: 35px;
-            font-family: 'Montserrat', sans-serif;
+            margin-top: 20px;
+            padding: 10px;
           }
           
           #hr {
             margin: 20px 0;
-            border: 1px solid #ccc;
+            width: 1170px;
+            margin-left: 40px;
+            border: 0.5px solid #888484;
+            
           }
           
           .cont {
@@ -337,7 +370,12 @@
             color: white;
             margin-left: -400px;
             margin-top: 20px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: Montserrat, sans-serif;
+          
+          }
+          #icons321{
+            margin-right: 20px;
+            
           }
           
           .contactus {
@@ -347,7 +385,7 @@
           
           .contactus p {
             margin: 5px 0;
-            font-family: 'Montserrat', sans-serif;
+           
           }
           
           #whatsapp {
@@ -355,12 +393,12 @@
             display: flex;
             align-items: center;
             padding: 10px;
-            background-color: #66a93e;
+            background: linear-gradient(to right, #4E8D40 0%, #77BE43 100%);
             color: white;
             border: none;
             border-radius: 5px;
             width: 250px;
-            height: 40px;
+            height: 50px;
           }
           
           #whatsapp:hover {
@@ -376,28 +414,25 @@
             display: table;
             clear: both;
           }
-          #icon3 {
-            margin-left: 10px;
-            height: 20px;
-            width: 40px;
-          }
+         
           .lastcontent {
             color: white;
             display: flex;
           }
-          .lastcontent > p {
+           .lastcontent > p {
+            font-size: 14px;
             color: white;
             display: flex;
-            font-family: 'Montserrat', sans-serif;
-            margin-left: 20px;
+            margin-left: 40px;
+            margin-bottom: 40px;
           }
           .lastcontent > p1 {
+            font-size: 14px;
             color: white;
             display: flex;
-            font-family: 'Montserrat', sans-serif;
-            margin-left: 700px;
+            margin-left: 820px;
             padding-top: 20px;
-          }
+          } 
           /* //fidsovbogos */
           .grid-container {
             display: grid;
@@ -406,9 +441,6 @@
             gap: 20px; 
         }
         
-        .Frame1 {
-            /* Your existing Frame1 styles */
-        }
         
         .Frame1 img {
             max-width: 100%;
